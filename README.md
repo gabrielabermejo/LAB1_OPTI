@@ -30,10 +30,13 @@ Resuelto en el Google Colab
 
 
 4. Escoge 3 algoritmos de optimización sin restricciones. Realiza cambios sobre sus parámetros y sobre el punto inicial. ¿Cómo afectan estos cambios los resultados? ¿Cómo afecta el tiempo de convergencia o cantidad de iteraciones? Nota: Puedes utilizar las librerías de Python y alguna ayuda gráfica o tabulaciones si lo necesitan para soportar sus conclusiones.
+
 Algoritmos a evaluar:
-Gradiente Descendente: Es un método de optimización basado en la primera derivada que minimiza una función moviéndose en la dirección opuesta a su gradiente.
-Newton-Raphson: Utiliza tanto la primera como la segunda derivada (Hessiana) para realizar un ajuste cuadrático local de la función y encontrar puntos mínimos de manera más eficiente.
-Quasi-Newton (BFGS): Aproxima la matriz Hessiana sin tener que calcularla directamente, lo que lo hace más eficiente que Newton-Raphson para grandes problemas.
+- Gradiente Descendente: Es un método de optimización basado en la primera derivada que minimiza una función moviéndose en la dirección opuesta a su gradiente.
+- Newton-Raphson: Utiliza tanto la primera como la segunda derivada (Hessiana) para realizar un ajuste cuadrático local de la función y encontrar puntos mínimos de manera más eficiente.
+- Quasi-Newton (BFGS): Aproxima la matriz Hessiana sin tener que calcularla directamente, lo que lo hace más eficiente que Newton-Raphson para grandes problemas.
+
+  
 Factores a cambiar:
 Punto inicial: Este valor puede influir significativamente en la rapidez con que los algoritmos convergen y si alcanzan un mínimo global o local.
 Parámetros del algoritmo: Principalmente, la tasa de aprendizaje (para el Gradiente Descendente) y el criterio de convergencia (tolerancia).
